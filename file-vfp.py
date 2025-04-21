@@ -9,7 +9,7 @@ device = 0 if torch.cuda.is_available() else -1
 classifier = pipeline("image-classification", model="google/vit-base-patch16-224", device=device)
 
 # Image path (single file or folder)
-image_path = os.path.expanduser(r"C:\Users\Medwe\OneDrive\Desktop\project\newtest.jpeg")
+image_path = os.path.expanduser(image_path)
 
 # Store results
 classification_results = {}
