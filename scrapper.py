@@ -9,10 +9,10 @@ import re
 import uuid
 
 # Path to the folder containing memes (Update this to your meme folder)
-meme_folder = os.path.expanduser(r'C:\Users\Medwe\OneDrive\Desktop\project')
+meme_folder = os.path.expanduser(folder_path)
 
 # Path to save processed memes (Saving in Downloads)
-meme_save_path = os.path.expanduser(r'C:\Users\Medwe\Downloads')
+meme_save_path = os.path.expanduser('~/Downloads')
 
 # Load the image captioning model
 
