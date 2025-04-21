@@ -7,7 +7,7 @@ import json
 classifier = pipeline("image-classification", model="google/vit-base-patch16-224", device=-1)
 
 # Path to a folder OR single image file to classify
-image_path = os.path.expanduser(r"C:\Users\Medwe\OneDrive\Desktop\project\newtest.jpeg")  # Update this to your actual path
+image_path = os.path.expanduser(image_path)  # Update this to your actual path
 
 # Store results
 classification_results = {}
