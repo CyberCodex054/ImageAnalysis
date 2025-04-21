@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore", message=".*symlinks on Windows.*")
 model_id = "google/vit-base-patch16-224"  # Fully trained on ImageNet
 
 # Image to classify
-image_path = r"C:\Users\Medwe\OneDrive\Desktop\project\newtest.jpeg"
+image_path =image_path
 output_file = "image_classification_results.json"
 
 # Load model and image processor
